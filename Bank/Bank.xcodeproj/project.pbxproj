@@ -8,10 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		77E029422260C1AA00ACBD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029412260C1AA00ACBD65 /* AppDelegate.swift */; };
-		77E029442260C1AA00ACBD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029432260C1AA00ACBD65 /* ViewController.swift */; };
 		77E029472260C1AA00ACBD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E029452260C1AA00ACBD65 /* Main.storyboard */; };
 		77E029492260C1AB00ACBD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E029482260C1AB00ACBD65 /* Assets.xcassets */; };
 		77E0294C2260C1AB00ACBD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E0294A2260C1AB00ACBD65 /* LaunchScreen.storyboard */; };
+		77E0295E2260CD4100ACBD65 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029582260CD4100ACBD65 /* LoginPresenter.swift */; };
+		77E0295F2260CD4100ACBD65 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029592260CD4100ACBD65 /* LoginWorker.swift */; };
+		77E029602260CD4100ACBD65 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0295A2260CD4100ACBD65 /* LoginRouter.swift */; };
+		77E029612260CD4100ACBD65 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0295B2260CD4100ACBD65 /* LoginModels.swift */; };
+		77E029622260CD4100ACBD65 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0295C2260CD4100ACBD65 /* LoginViewController.swift */; };
+		77E029632260CD4100ACBD65 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0295D2260CD4100ACBD65 /* LoginInteractor.swift */; };
+		77E0296A2260CD6400ACBD65 /* ExtractPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029642260CD6400ACBD65 /* ExtractPresenter.swift */; };
+		77E0296B2260CD6400ACBD65 /* ExtractWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029652260CD6400ACBD65 /* ExtractWorker.swift */; };
+		77E0296C2260CD6400ACBD65 /* ExtractRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029662260CD6400ACBD65 /* ExtractRouter.swift */; };
+		77E0296D2260CD6400ACBD65 /* ExtractModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029672260CD6400ACBD65 /* ExtractModels.swift */; };
+		77E0296E2260CD6400ACBD65 /* ExtractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029682260CD6400ACBD65 /* ExtractViewController.swift */; };
+		77E0296F2260CD6400ACBD65 /* ExtractInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029692260CD6400ACBD65 /* ExtractInteractor.swift */; };
+		77E029722260CE3200ACBD65 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029712260CE3200ACBD65 /* LoginResponse.swift */; };
+		77E029752260CE5800ACBD65 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029742260CE5800ACBD65 /* UserResponse.swift */; };
+		77E029772260CE6500ACBD65 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E029762260CE6500ACBD65 /* Error.swift */; };
+		77E0297C2260DA4700ACBD65 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E0297B2260DA4700ACBD65 /* String+Extensions.swift */; };
 		9442E149F07F758F80B0F761 /* Pods_Bank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205EA168E7E0D7DA6C0CCC19 /* Pods_Bank.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +35,26 @@
 		71F91EB2CB3C1765A4633D1B /* Pods-Bank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bank.debug.xcconfig"; path = "Target Support Files/Pods-Bank/Pods-Bank.debug.xcconfig"; sourceTree = "<group>"; };
 		77E0293E2260C1AA00ACBD65 /* Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E029412260C1AA00ACBD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77E029432260C1AA00ACBD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77E029462260C1AA00ACBD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77E029482260C1AB00ACBD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77E0294B2260C1AB00ACBD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77E0294D2260C1AB00ACBD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E029582260CD4100ACBD65 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		77E029592260CD4100ACBD65 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		77E0295A2260CD4100ACBD65 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		77E0295B2260CD4100ACBD65 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		77E0295C2260CD4100ACBD65 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		77E0295D2260CD4100ACBD65 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		77E029642260CD6400ACBD65 /* ExtractPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractPresenter.swift; sourceTree = "<group>"; };
+		77E029652260CD6400ACBD65 /* ExtractWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractWorker.swift; sourceTree = "<group>"; };
+		77E029662260CD6400ACBD65 /* ExtractRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractRouter.swift; sourceTree = "<group>"; };
+		77E029672260CD6400ACBD65 /* ExtractModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractModels.swift; sourceTree = "<group>"; };
+		77E029682260CD6400ACBD65 /* ExtractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewController.swift; sourceTree = "<group>"; };
+		77E029692260CD6400ACBD65 /* ExtractInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractInteractor.swift; sourceTree = "<group>"; };
+		77E029712260CE3200ACBD65 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		77E029742260CE5800ACBD65 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		77E029762260CE6500ACBD65 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		77E0297B2260DA4700ACBD65 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		BBE76825131E618C4253C468 /* Pods-Bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bank.release.xcconfig"; path = "Target Support Files/Pods-Bank/Pods-Bank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,14 +91,77 @@
 		77E029402260C1AA00ACBD65 /* Bank */ = {
 			isa = PBXGroup;
 			children = (
+				77E0297A2260DA2C00ACBD65 /* Extensions */,
+				77E029732260CE3700ACBD65 /* Model */,
+				77E029702260CD7500ACBD65 /* View */,
+				77E029532260CCE300ACBD65 /* Scenes */,
 				77E029412260C1AA00ACBD65 /* AppDelegate.swift */,
-				77E029432260C1AA00ACBD65 /* ViewController.swift */,
-				77E029452260C1AA00ACBD65 /* Main.storyboard */,
 				77E029482260C1AB00ACBD65 /* Assets.xcassets */,
-				77E0294A2260C1AB00ACBD65 /* LaunchScreen.storyboard */,
 				77E0294D2260C1AB00ACBD65 /* Info.plist */,
 			);
 			path = Bank;
+			sourceTree = "<group>";
+		};
+		77E029532260CCE300ACBD65 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				77E029542260CCEE00ACBD65 /* Login */,
+				77E029572260CD0700ACBD65 /* Extract */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		77E029542260CCEE00ACBD65 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				77E029582260CD4100ACBD65 /* LoginPresenter.swift */,
+				77E029592260CD4100ACBD65 /* LoginWorker.swift */,
+				77E0295A2260CD4100ACBD65 /* LoginRouter.swift */,
+				77E0295B2260CD4100ACBD65 /* LoginModels.swift */,
+				77E0295C2260CD4100ACBD65 /* LoginViewController.swift */,
+				77E0295D2260CD4100ACBD65 /* LoginInteractor.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		77E029572260CD0700ACBD65 /* Extract */ = {
+			isa = PBXGroup;
+			children = (
+				77E029642260CD6400ACBD65 /* ExtractPresenter.swift */,
+				77E029652260CD6400ACBD65 /* ExtractWorker.swift */,
+				77E029662260CD6400ACBD65 /* ExtractRouter.swift */,
+				77E029672260CD6400ACBD65 /* ExtractModels.swift */,
+				77E029682260CD6400ACBD65 /* ExtractViewController.swift */,
+				77E029692260CD6400ACBD65 /* ExtractInteractor.swift */,
+			);
+			path = Extract;
+			sourceTree = "<group>";
+		};
+		77E029702260CD7500ACBD65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77E029452260C1AA00ACBD65 /* Main.storyboard */,
+				77E0294A2260C1AB00ACBD65 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77E029732260CE3700ACBD65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77E029712260CE3200ACBD65 /* LoginResponse.swift */,
+				77E029742260CE5800ACBD65 /* UserResponse.swift */,
+				77E029762260CE6500ACBD65 /* Error.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77E0297A2260DA2C00ACBD65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77E0297B2260DA4700ACBD65 /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		A1572209DF5D22EC17422F49 /* Pods */ = {
@@ -77,7 +170,6 @@
 				71F91EB2CB3C1765A4633D1B /* Pods-Bank.debug.xcconfig */,
 				BBE76825131E618C4253C468 /* Pods-Bank.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,8 +301,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E029442260C1AA00ACBD65 /* ViewController.swift in Sources */,
+				77E029772260CE6500ACBD65 /* Error.swift in Sources */,
+				77E0296E2260CD6400ACBD65 /* ExtractViewController.swift in Sources */,
+				77E0296C2260CD6400ACBD65 /* ExtractRouter.swift in Sources */,
+				77E029622260CD4100ACBD65 /* LoginViewController.swift in Sources */,
+				77E0295E2260CD4100ACBD65 /* LoginPresenter.swift in Sources */,
+				77E0296B2260CD6400ACBD65 /* ExtractWorker.swift in Sources */,
+				77E029752260CE5800ACBD65 /* UserResponse.swift in Sources */,
+				77E029632260CD4100ACBD65 /* LoginInteractor.swift in Sources */,
+				77E029722260CE3200ACBD65 /* LoginResponse.swift in Sources */,
+				77E029612260CD4100ACBD65 /* LoginModels.swift in Sources */,
+				77E0296A2260CD6400ACBD65 /* ExtractPresenter.swift in Sources */,
+				77E0296F2260CD6400ACBD65 /* ExtractInteractor.swift in Sources */,
+				77E0297C2260DA4700ACBD65 /* String+Extensions.swift in Sources */,
 				77E029422260C1AA00ACBD65 /* AppDelegate.swift in Sources */,
+				77E029602260CD4100ACBD65 /* LoginRouter.swift in Sources */,
+				77E0295F2260CD4100ACBD65 /* LoginWorker.swift in Sources */,
+				77E0296D2260CD6400ACBD65 /* ExtractModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
